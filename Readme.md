@@ -8,3 +8,7 @@ git add [archivo.txt]
 git commit -m "comentario"
 git remote (saber la ruta donde subir)
 git push [origin]
+
+
+## License
+This library is available under the MIT license.
