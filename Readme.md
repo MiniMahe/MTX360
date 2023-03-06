@@ -1,4 +1,3 @@
-#Proyecto MTX360
 
 Jose David Cámara, Luis Valle, Mael Machuca
 
