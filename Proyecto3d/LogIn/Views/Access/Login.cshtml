@@ -1,0 +1,51 @@
+﻿@model LogIn.Models.Login;
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LogIn</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/LogIn.styles.css" asp-append-version="true" />
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h3 class="text-center text-dark mt-5">Login Form</h3>
+            <div class="card my-5">
+
+                @*<form asp-controller="Access" asp-action="Login" class="card-body cardbody-color p-lg-5">*@
+                    @using (Html.BeginForm("Login", "Access", FormMethod.Post, new { @class = "card-body cardbody-color p-lg-5" }))
+                    {
+                        <div class="text-center">
+                            <img src="~/img/Doodle_Dimension_penguin.webp" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" alt="profile">
+                        </div>
+
+                        <div class="mb-3">
+                            @Html.TextBoxFor(a => a.Email, new {@class = "form-control", @placeholder = "Email", @autofocus = "Email", @textindex = "1"})
+                            @Html.ValidationMessageFor(a => a.Email,"",  new {@class = "text-danger"})
+                        </div>
+                        <div class="mb-3">
+                            @Html.PasswordFor(m => m.Password, new {@class = "form-control", @placeholder = "Contraseña", @textindex = "2"})
+                            @Html.ValidationMessageFor(m => m.Password,"",  new {@class = "text-danger"})
+                        </div>
+                        <div class="text-center"><button type="submit" class="btn btn-color px-5 mb-5 w-100">Login</button></div>
+                        @if (ViewData["ValidateMessage"] != null || @Html.ValidationMessageFor(a => a.Email) == null || @Html.ValidationMessageFor(m => m.Password) == null)
+                        {
+                            <label class="text-danger">@ViewData["ValidateMessage"]</label>
+                        }
+                        
+                    }
+                    <p>¿No tienes cuenta? Registrate <a asp-area="" asp-controller="Access" asp-action="Registro">aquí</a></p>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

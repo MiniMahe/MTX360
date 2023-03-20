@@ -1,0 +1,98 @@
+/* _content/LogIn/Views/Shared/_Header.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-huywnu5l31] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-huywnu5l31] {
+  color: #0077cc;
+}
+
+.btn-primary[b-huywnu5l31] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-huywnu5l31], .nav-pills .show > .nav-link[b-huywnu5l31] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-huywnu5l31] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-huywnu5l31] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-huywnu5l31] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-huywnu5l31] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-huywnu5l31] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/LogIn/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-jk8kabiywp] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-jk8kabiywp] {
+  color: #0077cc;
+}
+
+.btn-primary[b-jk8kabiywp] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-jk8kabiywp], .nav-pills .show > .nav-link[b-jk8kabiywp] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-jk8kabiywp] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-jk8kabiywp] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-jk8kabiywp] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-jk8kabiywp] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-jk8kabiywp] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

@@ -1,0 +1,53 @@
+﻿@model LogIn.Models.Registro;
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LogIn</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/LogIn.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card my-5">
+    @using (Html.BeginForm("Registro", "Access", FormMethod.Post, new { @class = "card-body cardbody-color p-lg-5" }))
+    {
+                <div class="text-center">
+                    <img src="~/img/avatar-1295397__340.png" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3" alt="profile">
+                </div>
+                <div class="mb-3">
+                    @Html.TextBoxFor(a => a.Nombre, new {@class = "form-control", @placeholder = "Nombre", @autofocus = "Email", @textindex = "1"})
+                    @Html.ValidationMessageFor(a => a.Nombre,"",  new {@class = "text-danger"})
+                </div>
+                <div class="mb-3">
+                    @Html.TextBoxFor(m => m.Telefono, new {@class = "form-control", @placeholder = "Teléfono", @textindex = "2"})
+                    @Html.ValidationMessageFor(m => m.Telefono,"",  new {@class = "text-danger"})
+                </div>
+                <div class="mb-3">
+                    @Html.TextBoxFor(a => a.DNI, new {@class = "form-control", @placeholder = "DNI", @textindex = "3"})
+                    @Html.ValidationMessageFor(a => a.DNI,"",  new {@class = "text-danger"})
+                </div>
+                <div class="mb-3">
+                    @Html.TextBoxFor(m => m.User, new {@class = "form-control", @placeholder = "Email", @textindex = "4"})
+                    @Html.ValidationMessageFor(m => m.User,"",  new {@class = "text-danger"})
+                </div>
+                <div class="mb-3">
+                    @Html.PasswordFor(a => a.Contraseña, new {@class = "form-control", @placeholder = "Contraseña", @textindex = "5"})
+                    @Html.ValidationMessageFor(a => a.Contraseña,"",  new {@class = "text-danger"})
+                </div>
+                    <div class="text-center"><button type="submit" class="btn btn-color px-5 mb-5 w-100">Login</button></div>
+                @ViewData["ValidateMessage"];
+    }
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
