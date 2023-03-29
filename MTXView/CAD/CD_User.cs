@@ -1,32 +1,49 @@
 ﻿using CapaDatos;
+using Microsoft.Identity.Client;
+using MySql.Data.MySqlClient;
 using System.Data;
 using System.Data.SqlClient;
+using System.Net.Http;
+using System.Security.Claims;
 
 namespace Datos
 {
     public class CD_User {
-        private CD_Conexion conexion = new CD_Conexion();
-        SqlDataReader leer;
-        SqlCommand comando = new SqlCommand();
+        MySqlDataReader leer;
+        MySqlCommand comando = new MySqlCommand();
+        MySqlConnection conexionsql = new(CD_Conexion.ConexionStr());
         public string Verify(string nombre, string password)
         {
-            comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "Verificar";
-            comando.CommandType = CommandType.StoredProcedure;
-            comando.Parameters.AddWithValue("@email", nombre);
-            comando.Parameters.AddWithValue("@password", password);
-            leer = comando.ExecuteReader();
-            if(leer.Read())
+            try
             {
-                comando.Parameters.Clear();
-                conexion.CerrarConexion();
-                return nombre;
+                            comando.CommandType = CommandType.StoredProcedure;
+                            comando.Parameters.Add("email", MySqlDbType.VarChar).Value = nombre;
+                            comando.Parameters.Add("password", MySqlDbType.VarChar).Value = password;
+                            conexionsql.Open();
+
+                            MySqlDataReader leectorsql = comando.ExecuteReader();
+
+                            if (leectorsql.Read())
+                            {
+                                conexionsql.Close();
+                                return nombre;
+                            }
+                            else
+                            {
+                                conexionsql.Close();
+                              
+                                return null;
+                            }
+                      
+                
+
             }
-            //comando.ExecuteNonQuery();
-            comando.Parameters.Clear();
-            conexion.CerrarConexion();
-            return null;
+            catch (Exception)
+            {
+
+                return null;
+            }
         }
+    }
 
     }
-}
