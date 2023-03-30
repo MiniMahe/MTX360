@@ -10,40 +10,42 @@ namespace Datos
 {
     public class CD_User {
         MySqlDataReader leer;
-        MySqlCommand comando = new MySqlCommand();
-        MySqlConnection conexionsql = new(CD_Conexion.ConexionStr());
+        
         public string Verify(string nombre, string password)
         {
             try
             {
-                            comando.CommandType = CommandType.StoredProcedure;
-                            comando.Parameters.Add("email", MySqlDbType.VarChar).Value = nombre;
-                            comando.Parameters.Add("password", MySqlDbType.VarChar).Value = password;
-                            conexionsql.Open();
+                using (MySqlConnection conexionsql = new(CD_Conexion.ConexionStr())) { 
+                    using (MySqlCommand comando = new MySqlCommand("Verificar", conexionsql))
+                    {
+                        comando.CommandType = CommandType.StoredProcedure;
+                        comando.Parameters.Add("name", MySqlDbType.VarChar).Value = nombre;
+                        comando.Parameters.Add("pass", MySqlDbType.VarChar).Value = password;
+                        conexionsql.Open();
 
-                            MySqlDataReader leectorsql = comando.ExecuteReader();
+                        leer = comando.ExecuteReader();
 
-                            if (leectorsql.Read())
-                            {
-                                conexionsql.Close();
-                                return nombre;
-                            }
-                            else
-                            {
-                                conexionsql.Close();
-                              
-                                return null;
-                            }
-                      
-                
+                        if (leer.Read())
+                        {
+                            conexionsql.Close();
+                            return nombre;
+                        }
+                        else
+                        {
+                            conexionsql.Close();
 
+                            return null;
+                        }
+
+
+                    }
+                }
             }
             catch (Exception)
             {
 
                 return null;
             }
+            }
         }
-    }
-
     }
