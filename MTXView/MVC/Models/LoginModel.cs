@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace LogIn.Models
+namespace MVC.Models
 {
     public class Login
     {

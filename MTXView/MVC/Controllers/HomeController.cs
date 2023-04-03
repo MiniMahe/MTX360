@@ -1,4 +1,4 @@
-﻿using LogIn.Models;
+﻿using MVC.Models;
 using System;
 using Negocio;
 using Microsoft.AspNetCore.Authentication;
