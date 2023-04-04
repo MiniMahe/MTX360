@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Data;
 using System.Security.Claims;
 using System.IO;
-
+using Microsoft.AspNetCore.Cors;
 
 namespace LogIn.Controllers
 {
@@ -65,6 +65,19 @@ public class AccessController : Controller
         ViewData["ValidateMessage"] = "No válido";
         return View();
     }
-    
-}
+
+        [EnableCors] 
+        public IActionResult Index()
+        {
+            string ruta = "Imagen2-Imagen.bin";
+            byte[] biteIMG = System.IO.File.ReadAllBytes(ruta);
+            string imreBase64Data = Convert.ToBase64String(biteIMG);
+            string imgDataURL = string.Format("data:image/png;base64,{0}", imreBase64Data);
+            Fotos foto = new Fotos();
+            foto.Imagen = imgDataURL;
+            ViewBag.Imagen = imgDataURL;
+            return View(foto);
+        }
+
+    }
 }

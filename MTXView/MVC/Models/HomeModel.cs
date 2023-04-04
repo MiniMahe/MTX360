@@ -2,10 +2,8 @@
 
 namespace MVC.Models
 {
-    public class Datos
+    public class Fotos
     {
-        public string Nombre { get; set; }
-        public string Telefono { get; set; }
-        public string DNI { get; set; }
+        public string Imagen { get; set; }
     }
 }
