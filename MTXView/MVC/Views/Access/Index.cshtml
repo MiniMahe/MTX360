@@ -2,7 +2,6 @@
 
 
         <div id="photosphere" style="width: 100vw; height: 100vh;"></div>
-<img src="@Model.Imagen" alt="Imagen">
 
 <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/core/index.min.js"></script>
@@ -33,7 +32,7 @@
             const nodes = [
                 {
                     id: '1',
-                    panorama: "@Model.Imagen",
+                    panorama: '/img/1.JPG',
                     thumbnail: baseUrl + 'tour/key-biscayne-1-thumb.jpg',
                     name: 'One',
                     links: [{ nodeId: '2', position: { pitch: 0, yaw: '100deg' } }],
@@ -47,7 +46,7 @@
                 },
                 {
                     id: '2',
-                    panorama: "@Model.Imagen",
+            panorama: '/img/1.JPG',
                     thumbnail: baseUrl + 'tour/key-biscayne-2-thumb.jpg',
                     name: 'Two',
                     links: [
@@ -164,10 +163,10 @@
                     PhotoSphereViewer.MarkersPlugin,
                     PhotoSphereViewer.CompassPlugin,
                     PhotoSphereViewer.GalleryPlugin,
-                    [PhotoSphereViewer.MapPlugin, {
-                        static: true,
-                        maxZoom: 150,
-                    }],
+                    //[PhotoSphereViewer.MapPlugin, {
+                    //    static: true,
+                    //    maxZoom: 150,
+                    //}],
                     [PhotoSphereViewer.VirtualTourPlugin, {
                         positionMode: 'gps',
                         renderMode: '3d',
@@ -187,19 +186,19 @@
                             extent: [-80.158123, 25.668050, -80.153824, 25.660408],
                         },
 
-                        // server mode (mock)
-                        // dataMode: 'server',
-                        // getNode: (nodeId) => {
-                        //     console.log('GET node ' + nodeId);
-                        //     return Promise.resolve({
-                        //         ...nodesById[nodeId],
-                        //         links: nodesById[nodeId].links.map((link) => ({
-                        //             ...link,
-                        //             name: nodesById[link.nodeId].name,
-                        //             gps: nodesById[link.nodeId].gps,
-                        //         })),
-                        //     });
-                        // },
+                         //server mode (mock)
+                         //dataMode: 'server',
+                         //getNode: (nodeId) => {
+                         //    console.log('GET node ' + nodeId);
+                         //    return Promise.resolve({
+                         //        ...nodesById[nodeId],
+                         //        links: nodesById[nodeId].links.map((link) => ({
+                         //            ...link,
+                         //            name: nodesById[link.nodeId].name,
+                         //            gps: nodesById[link.nodeId].gps,
+                         //        })),
+                         //    });
+                         //},
                     }],
                 ],
             });
