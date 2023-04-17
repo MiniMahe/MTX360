@@ -4,6 +4,9 @@ namespace MVC.Models
 {
     public class Fotos
     {
-        public string Imagen { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Link { get; set; }
+        public string Img { get; set; }
     }
 }
