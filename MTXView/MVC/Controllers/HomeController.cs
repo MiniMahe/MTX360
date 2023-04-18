@@ -27,32 +27,7 @@ namespace AuthProject.Controllers
         {
             return View();
         }
-        public FileContentResult getImage()
-        {
-            string ruta = "Imagen2-Imagen.bin";
-            byte[] biteIMG = System.IO.File.ReadAllBytes(ruta);
-
-            MemoryStream m = new MemoryStream(biteIMG);
-
-
-            Image image = Image.FromStream(m);
-
-            m = new MemoryStream();
-
-            image.Save(m, ImageFormat.Png);
-
-            m.Position = 0;
-
-            //string ruta = "Imagen2-Imagen.bin";
-            //byte[] biteIMG = System.IO.File.ReadAllBytes(ruta);
-            //string imreBase64Data = Convert.ToBase64String(biteIMG);
-            //string imgDataURL = string.Format("data:image/png;base64,{0}", imreBase64Data);
-            //Fotos foto = new Fotos();
-            //foto.Imagen = imgDataURL;
-            //ViewBag.Imagen = imgDataURL;
-
-            return new FileContentResult(biteIMG, "image/png");
-        }
+        
 
         public async Task<IActionResult> LogOut()
         {
