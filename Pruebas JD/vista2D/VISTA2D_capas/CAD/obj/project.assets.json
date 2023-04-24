@@ -2295,11 +2295,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj",
+      "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj",
       "projectName": "CAD",
-      "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj",
+      "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj",
       "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\obj\\",
+      "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",

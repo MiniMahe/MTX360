@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\CD.csproj": {}
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj": {
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj",
+        "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj",
         "projectName": "CAD",
-        "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj",
+        "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj",
         "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\obj\\",
+        "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\CD.csproj": {
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\CD.csproj",
+        "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj",
         "projectName": "CD",
-        "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\CD.csproj",
+        "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj",
         "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\obj\\",
+        "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +93,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj": {
-                "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj"
+              "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj": {
+                "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj"
               }
             }
           }

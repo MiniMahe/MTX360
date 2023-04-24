@@ -1,0 +1,15 @@
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\bin\Debug\net7.0\CD.deps.json
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\bin\Debug\net7.0\CD.dll
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\bin\Debug\net7.0\CD.pdb
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\bin\Debug\net7.0\CAD.dll
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\bin\Debug\net7.0\CAD.pdb
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\obj\Debug\net7.0\CD.csproj.AssemblyReference.cache
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\obj\Debug\net7.0\CD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\obj\Debug\net7.0\CD.AssemblyInfoInputs.cache
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\obj\Debug\net7.0\CD.AssemblyInfo.cs
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\obj\Debug\net7.0\CD.csproj.CoreCompileInputs.cache
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\obj\Debug\net7.0\CD.csproj.CopyComplete
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\obj\Debug\net7.0\CD.dll
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\obj\Debug\net7.0\refint\CD.dll
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\obj\Debug\net7.0\CD.pdb
+C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CD\obj\Debug\net7.0\ref\CD.dll

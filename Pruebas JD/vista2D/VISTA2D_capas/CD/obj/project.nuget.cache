@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VWqjqjTRV91dWufGJ11GkbQ3b9lseyw6kv2A0b+AT6Y3xn9XtAzlJKSMrbbcqZDBoP3qYLRdqLHAwq+VJGy5QA==",
+  "dgSpecHash": "Pl5oMaX7Bx7jwNZCFtbICSeJJJIKRO7bGZiPsrPWp2ovJFk0WYArKNG914MliRKy5w1ihfZvLuvJ3iQLXqN+UQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\CD.csproj",
+  "projectFilePath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trast\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\trast\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
