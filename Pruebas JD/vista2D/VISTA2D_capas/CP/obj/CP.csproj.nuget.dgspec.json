@@ -1,0 +1,204 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CP\\CP.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj",
+        "projectName": "CAD",
+        "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj",
+        "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\CD.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\CD.csproj",
+        "projectName": "CD",
+        "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\CD.csproj",
+        "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj": {
+                "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CAD\\CAD.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CP\\CP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CP\\CP.csproj",
+        "projectName": "CP",
+        "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CP\\CP.csproj",
+        "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CP\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\CD.csproj": {
+                "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\VISTA2D_capas\\CD\\CD.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
