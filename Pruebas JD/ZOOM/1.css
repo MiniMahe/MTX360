@@ -1,4 +1,29 @@
-#myimg {
-    width: 500px;
-    height: 500px;
-  }
+.rectangulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  height: 400px;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.fila {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cuadrado {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.pasillo {
+  width: 100%;
+  height: 30px;
+  background-color: gray;
+}
