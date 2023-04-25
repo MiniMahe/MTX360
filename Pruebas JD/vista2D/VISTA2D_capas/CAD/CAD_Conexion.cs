@@ -1,22 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data;
 using System.Data.SqlClient;
-using System.Data;
 
 
 namespace CAD
 {
     public class CAD_Conexion
     {
-        private SqlConnection Conexion = new SqlConnection("Server=JOSED\\SQLEXPRESS;DataBase=PorDecidir; Integrated Security=true");
+        private SqlConnection Conexion = new SqlConnection("Server=DESKTOP-Q90V882\\SQLEXPRESS;DataBase=MTX360JD; Integrated Security=true");
 
         public SqlConnection AbrirConexion()
         {
-            if(Conexion.State == ConnectionState.Closed) 
-            { 
+            if (Conexion.State == ConnectionState.Closed)
+            {
                 Conexion.Open();
             }
             return Conexion;

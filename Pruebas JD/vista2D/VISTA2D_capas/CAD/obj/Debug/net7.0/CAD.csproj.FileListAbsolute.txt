@@ -10,3 +10,15 @@ C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\o
 C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\refint\CAD.dll
 C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\CAD.pdb
 C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\ref\CAD.dll
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\bin\Debug\net7.0\CAD.deps.json
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\bin\Debug\net7.0\CAD.dll
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\bin\Debug\net7.0\CAD.pdb
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\CAD.csproj.AssemblyReference.cache
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\CAD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\CAD.AssemblyInfoInputs.cache
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\CAD.AssemblyInfo.cs
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\CAD.csproj.CoreCompileInputs.cache
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\CAD.dll
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\refint\CAD.dll
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\CAD.pdb
+C:\Users\JD\Desktop\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CAD\obj\Debug\net7.0\ref\CAD.dll

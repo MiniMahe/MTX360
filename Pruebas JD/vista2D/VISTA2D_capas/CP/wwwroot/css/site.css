@@ -41,6 +41,7 @@ body {
 
 .caja-lateral {
     max-height: 100%;
+    height: 100vh;
     width: 25vw;
     position: absolute;
     box-sizing: border-box;

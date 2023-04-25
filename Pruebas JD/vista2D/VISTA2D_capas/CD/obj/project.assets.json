@@ -2310,19 +2310,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\trast\\.nuget\\packages\\": {}
+    "C:\\Users\\JD\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj",
+      "projectUniqueName": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj",
       "projectName": "CD",
-      "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj",
-      "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\obj\\",
+      "projectPath": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj",
+      "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2330,14 +2335,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj": {
-              "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj"
+            "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj": {
+              "projectPath": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj"
             }
           }
         }
