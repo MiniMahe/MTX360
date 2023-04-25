@@ -16,9 +16,9 @@ namespace CD
 
         public List<CT_CD_2D> ConvertirDataTableALista()
         {
-            DT_CAD_2D dT_CAD_2D =new DT_CAD_2D();
+            DT_CAD_2D dT_CAD_2D = new DT_CAD_2D();
             DataTable dataTable;
-            dataTable  = dT_CAD_2D.ObtenerDatatable();
+            dataTable = dT_CAD_2D.ObtenerDatatable();
 
             List<CT_CD_2D> lista = new List<CT_CD_2D>();
 
@@ -26,7 +26,7 @@ namespace CD
             {
                 CT_CD_2D modelo = new CT_CD_2D();
                 modelo.id = Convert.ToInt32(row["id"]);
-                modelo.aula = row["nombre"].ToString();
+                modelo.aula = row["aula"].ToString();
                 modelo.imagen = row["imagen"].ToString();
                 modelo.piso = Convert.ToInt32(row["piso"]);
                 modelo.cordenadas = row["cordenadas"].ToString();
@@ -41,5 +41,5 @@ namespace CD
         }
     }
 
-   
+
 }

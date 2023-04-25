@@ -1,0 +1,17 @@
+﻿@model CP.Models.ListaClases
+
+<h2>Lista de salas</h2>
+
+<ul>
+    @foreach (var sala in Model.Salas)
+    {
+        <li>
+            <h3>@sala.aula</h3>
+            <p>ID: @sala.id</p>
+            <p>Imagen: @sala.imagen</p>
+            <p>Piso: @sala.piso</p>
+            <p>Coordenadas: @sala.cordenadas</p>
+            <p>URL: @sala.url</p>
+        </li>
+    }
+</ul>

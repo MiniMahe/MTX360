@@ -1,6 +1,5 @@
 ﻿using CP.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 
 namespace CP.Controllers
 {
@@ -15,9 +14,19 @@ namespace CP.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            ListaClases listaClases = new ListaClases();
+            listaClases.RellenarLista();
+
+            return View(listaClases);
         }
 
-        
+        public IActionResult Prueba()
+        {
+            ListaClases listaClases = new ListaClases();
+            listaClases.RellenarLista();
+
+            return View(listaClases);
+        }
+
     }
 }
