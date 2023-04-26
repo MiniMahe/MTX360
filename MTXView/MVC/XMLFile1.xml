@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<configSections>
+	</configSections>
+	
+	<startup>
+		<supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+	</startup>
+	<connectionStrings>
+
+		<add name="cnnString">Server="mlmvc.com.mialias.net";DataBase="mtxview";User Id="lmmvc";Password="testmvc1"</add>
+		<odd name="cnnString"> Server="A611\SQLEXPRESS";DataBase="Usuario";User Id="sa";Password="1cfgs" </odd>
+	</connectionStrings>
+</configuration>

@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LogIn</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/core/index.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/markers-plugin/index.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/compass-plugin/index.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/gallery-plugin/index.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/map-plugin/index.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/virtual-tour-plugin/index.min.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    <script src="https://cdn.jsdelivr.net/npm/three/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/core/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/markers-plugin/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/compass-plugin/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/gallery-plugin/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/map-plugin/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@@photo-sphere-viewer/virtual-tour-plugin/index.min.js"></script>
+    <script src="~/js/site.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
