@@ -26,10 +26,10 @@ namespace CD
             {
                 CT_CD_2D modelo = new CT_CD_2D();
                 modelo.id = Convert.ToInt32(row["id"]);
-                modelo.aula = row["aula"].ToString();
+                modelo.aula = row["nombre"].ToString();
                 modelo.imagen = row["imagen"].ToString();
                 modelo.piso = Convert.ToInt32(row["piso"]);
-                modelo.cordenadas = row["cordenadas"].ToString();
+                modelo.cordenadas = row["coordenadas"].ToString();
                 modelo.url = row["url"].ToString();
 
 

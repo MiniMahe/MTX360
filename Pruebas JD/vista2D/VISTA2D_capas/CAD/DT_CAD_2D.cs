@@ -1,5 +1,7 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
+
 
 namespace CAD
 {
@@ -10,13 +12,13 @@ namespace CAD
 
         public DataTable ObtenerDatatable()
         {
-            string query1 = "SELECT * FROM imagen";
+            string query1 = "SELECT * FROM `cordenadas`";
 
-            SqlConnection conexionConnection = conexion.AbrirConexion();
-            SqlCommand command1 = new SqlCommand(query1, conexionConnection);
-            SqlDataAdapter adapter1 = new SqlDataAdapter(command1);
+            MySqlConnection conexionConnection = conexion.AbrirConexion();
+            MySqlCommand command1 = new MySqlCommand(query1, conexionConnection);
+            MySqlDataAdapter adapter1 = new MySqlDataAdapter(command1);
 
-            DataTable table1 = new DataTable("imagen");
+            DataTable table1 = new DataTable("cordenadas");
             adapter1.Fill(table1);
 
             return table1;

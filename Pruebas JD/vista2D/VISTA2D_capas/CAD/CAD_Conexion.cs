@@ -1,14 +1,16 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
+
 
 
 namespace CAD
 {
     public class CAD_Conexion
     {
-        private SqlConnection Conexion = new SqlConnection("Server=DESKTOP-Q90V882\\SQLEXPRESS;DataBase=MTX360JD; Integrated Security=true");
+        private MySqlConnection Conexion = new MySqlConnection("Server=\"mlmvc.com.mialias.net\";DataBase=\"mtxview\";User Id=\"lmmvc\";Password=\"testmvc1\"");
 
-        public SqlConnection AbrirConexion()
+        public MySqlConnection AbrirConexion()
         {
             if (Conexion.State == ConnectionState.Closed)
             {
@@ -17,7 +19,7 @@ namespace CAD
             return Conexion;
         }
 
-        public SqlConnection CerrarConexion()
+        public MySqlConnection CerrarConexion()
         {
             if (Conexion.State == ConnectionState.Open)
             {

@@ -2968,19 +2968,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1DAW\\.nuget\\packages\\": {}
+    "C:\\Users\\trast\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1DAW\\Documents\\MTXVIEW\\CAD\\CAD.csproj",
+      "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\CAD\\CAD.csproj",
       "projectName": "CAD",
-      "projectPath": "C:\\Users\\1DAW\\Documents\\MTXVIEW\\CAD\\CAD.csproj",
-      "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1DAW\\Documents\\MTXVIEW\\CAD\\obj\\",
+      "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\CAD\\CAD.csproj",
+      "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\CAD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\1DAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3035,7 +3035,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

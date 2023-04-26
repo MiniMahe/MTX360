@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\CP.csproj": {}
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\CP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj": {
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj",
+        "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj",
         "projectName": "CAD",
-        "projectPath": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj",
-        "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\obj\\",
+        "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj",
+        "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -49,79 +44,13 @@
               "target": "Package",
               "version": "[5.1.1, )"
             },
-            "System.Data.SqlClient": {
+            "MySql.Data": {
               "target": "Package",
-              "version": "[4.8.5, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj",
-        "projectName": "CD",
-        "projectPath": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj",
-        "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj": {
-                "projectPath": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.Data.SqlClient": {
+              "version": "[8.0.33, )"
+            },
+            "MySqlClient": {
               "target": "Package",
-              "version": "[5.1.1, )"
+              "version": "[5.5.1, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -148,21 +77,17 @@
         }
       }
     },
-    "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\CP.csproj": {
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\CP.csproj",
-        "projectName": "CP",
-        "projectPath": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\CP.csproj",
-        "packagesPath": "C:\\Users\\JD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\obj\\",
+        "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj",
+        "projectName": "CD",
+        "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj",
+        "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\JD\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -170,15 +95,91 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj": {
-                "projectPath": "C:\\Users\\JD\\Desktop\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj"
+              "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj": {
+                "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CAD\\CAD.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.33, )"
+            },
+            "MySqlClient": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\CP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\CP.csproj",
+        "projectName": "CP",
+        "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\CP.csproj",
+        "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj": {
+                "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CD\\CD.csproj"
               }
             }
           }
