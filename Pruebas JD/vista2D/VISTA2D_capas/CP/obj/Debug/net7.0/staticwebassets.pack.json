@@ -197,6 +197,18 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Baladre.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\Baladre.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Curie.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\Curie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\FONDO-ESCRITORIO.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\FONDO-ESCRITORIO.jpg"
+    },
+    {
       "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Mapa_Planta_1.png",
       "PackagePath": "staticwebassets\\lib\\imgs\\Mapa_Planta_1.png"
     },
@@ -207,6 +219,98 @@
     {
       "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Mapa_Planta_3.png",
       "PackagePath": "staticwebassets\\lib\\imgs\\Mapa_Planta_3.png"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\agora.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\agora.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\aitana.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\aitana.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\altamira.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\altamira.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\arcoiris.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\arcoiris.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\atenea.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\atenea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\ecofol.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\ecofol.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\galileo.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\galileo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\guernica.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\guernica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\iberia.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\iberia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\info1.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\info1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\info2.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\info2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\info3.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\info3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\info4.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\info4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\info5.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\info5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\info6.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\info6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\info7.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\info7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\info8.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\info8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\margallo.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\margallo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\o.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\o.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\paname.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\paname.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\pandora.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\pandora.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\quercus.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\quercus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\sabios.jpg",
+      "PackagePath": "staticwebassets\\lib\\imgs\\sabios.jpg"
     },
     {
       "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

@@ -11,7 +11,6 @@ using System.Drawing.Imaging;
 
 namespace AuthProject.Controllers
 {
-    [Authorize]
     public class HomeController : Controller
     {
         
@@ -34,6 +33,32 @@ namespace AuthProject.Controllers
 
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login", "Access");
+        }
+        public IActionResult Planta1()
+        {
+
+            ListaClases listaClases = new ListaClases();
+            listaClases.RellenarLista();
+            ViewData["piso"] = "1";
+
+            return View("2Dview", listaClases);
+        }
+        public IActionResult Planta2()
+        {
+            ListaClases listaClases = new ListaClases();
+            listaClases.RellenarLista(1);
+            ViewData["piso"] = "2";
+
+            return View("2Dview", listaClases);
+        }
+        public IActionResult Planta3()
+        {
+            ListaClases listaClases = new ListaClases();
+            listaClases.RellenarLista(2);
+            ViewData["piso"] = "3";
+
+
+            return View("2Dview", listaClases);
         }
     }
 }

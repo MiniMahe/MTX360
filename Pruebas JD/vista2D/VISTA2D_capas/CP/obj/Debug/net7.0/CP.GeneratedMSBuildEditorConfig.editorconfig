@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\trast\OneDrive\Escritorio\MTX360\Pruebas JD\vista2D\VISTA2D_capas\CP
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/trast/OneDrive/Escritorio/MTX360/Pruebas JD/vista2D/VISTA2D_capas/CP/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/trast/OneDrive/Escritorio/MTX360/Pruebas JD/vista2D/VISTA2D_capas/CP/Views/Home/2Dview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVwyRHZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/trast/OneDrive/Escritorio/MTX360/Pruebas JD/vista2D/VISTA2D_capas/CP/Views/Home/Privacy.cshtml]
@@ -30,6 +30,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/trast/OneDrive/Escritorio/MTX360/Pruebas JD/vista2D/VISTA2D_capas/CP/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/trast/OneDrive/Escritorio/MTX360/Pruebas JD/vista2D/VISTA2D_capas/CP/Views/Shared/_2DviewLY.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF8yRHZpZXdMWS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/trast/OneDrive/Escritorio/MTX360/Pruebas JD/vista2D/VISTA2D_capas/CP/Views/Shared/_ValidationScriptsPartial.cshtml]
