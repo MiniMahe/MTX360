@@ -11,10 +11,10 @@ namespace CP.Models
             Salas = new List<CT_CD_2D>();
         }
 
-        public void RellenarLista()
+        public void RellenarLista(int idpiso = 0)
         {
             CT_CD_2D cT_CD_2D = new CT_CD_2D();
-            Salas = cT_CD_2D.ConvertirDataTableALista();
+            Salas = cT_CD_2D.ConvertirDataTableALista(idpiso);
         }
     }
 }

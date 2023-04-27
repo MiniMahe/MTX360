@@ -3,12 +3,22 @@
 
 <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark caja-lateral">
 
-    <div class="btn-group botones-planta">
-        <button type="button" class="btn text-white btn-primary boton-planta">Planta 1 </button>
-        <button type="button" class="btn text-white btn-primary boton-planta">Planta 2 </button>
-        <button type="button" class="btn text-white btn-primary boton-planta">Planta 3 </button>
+    @*<form method="post" action="/Home/Index">
 
+        <div class="btn-group btn-group-justified botones-planta">
+            <button type="submit" class="btn btn-primary boton-planta" name="pisoid" value="0">Planta 1</button>
+            <button type="submit" class="btn btn-primary boton-planta" name="pisoid" value="1">Planta 2</button>
+            <button type="submit" class="btn btn-primary boton-planta" name="pisoid" value="2">Planta 3</button>
+        </div>
+    </form>*@
+
+    <div class="btn-group btn-group-justified botones-planta">
+    @Html.ActionLink("Planta 1","Index","Home",null,new{@class="btn btn-primary boton-planta"})
+    @Html.ActionLink("Planta 1","Planta2","Home",null,new{@class="btn btn-primary boton-planta"})
+    @Html.ActionLink("Planta 1","Planta3","Home",null,new{@class="btn btn-primary boton-planta"})
     </div>
+
+
 
     <input type="search" class="form-control buscador" placeholder="Search" aria-label="Search"
            aria-describedby="search-addon" />

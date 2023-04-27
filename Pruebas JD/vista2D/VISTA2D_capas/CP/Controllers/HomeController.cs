@@ -14,19 +14,27 @@ namespace CP.Controllers
 
         public IActionResult Index()
         {
+            
             ListaClases listaClases = new ListaClases();
             listaClases.RellenarLista();
 
             return View(listaClases);
         }
-
-        public IActionResult Prueba()
+        public IActionResult Planta2()
         {
             ListaClases listaClases = new ListaClases();
-            listaClases.RellenarLista();
+            listaClases.RellenarLista(1);
 
-            return View(listaClases);
+            return View("Index", listaClases);
         }
+        public IActionResult Planta3()
+        {
+            ListaClases listaClases = new ListaClases();
+            listaClases.RellenarLista(2);
+
+            return View("Index",listaClases);
+        }
+        
 
     }
 }

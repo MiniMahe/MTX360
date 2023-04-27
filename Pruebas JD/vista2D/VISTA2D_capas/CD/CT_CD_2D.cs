@@ -14,7 +14,7 @@ namespace CD
 
 
 
-        public List<CT_CD_2D> ConvertirDataTableALista()
+        public List<CT_CD_2D> ConvertirDataTableALista( int pisoid = 0)
         {
             DT_CAD_2D dT_CAD_2D = new DT_CAD_2D();
             DataTable dataTable;
@@ -33,8 +33,10 @@ namespace CD
                 modelo.url = row["url"].ToString();
 
 
-
-                lista.Add(modelo);
+                if (pisoid == modelo.piso) 
+                {
+                    lista.Add(modelo); 
+                }
             }
 
             return lista;
