@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lSKgctn4+04PCLMq3Hfbe8bef/BKPGedBOvAa+2I576/jb0a9JOVII36o/tyS8MZvWa5efD9x51FioDsLgU1OQ==",
+  "dgSpecHash": "x8YpUv1tEy3Ya61mO5N8OfZXbtIx+ENgojF3XEySi14LqfJFdnOl/HL32NNJAOK3Sa8xVJ/03RRTKiXnfa6WJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1DAW\\Documents\\MTXVIEW\\CN\\CN.csproj",
+  "projectFilePath": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\CN\\CN.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1DAW\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\1DAW\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

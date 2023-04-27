@@ -13,95 +13,107 @@ using System.Drawing;
 using System.ComponentModel;
 using System.Reflection;
 using System.Text.Json;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace LogIn.Controllers
 {
-    public class AccessController : Controller
+public class AccessController : Controller
+{
+    public IActionResult Login()
     {
-        public IActionResult Login()
+        ClaimsPrincipal claimUser = HttpContext.User;
+
+        if (claimUser.Identity.IsAuthenticated)
+            return RedirectToAction("Index", "Home");
+
+           
+
+        return View("Login");
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Login(Login modelLogin)
+    {
+
+        if(ModelState.IsValid)
         {
-            ClaimsPrincipal claimUser = HttpContext.User;
-
-            if (claimUser.Identity.IsAuthenticated)
-                return RedirectToAction("Index", "Home");
-
-
-
-            return View("Login");
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Login(Login modelLogin)
-        {
-
-            if (ModelState.IsValid)
+            CN_User loginUser = new CN_User();
+            string login = loginUser.VerificarUser(modelLogin.Email, modelLogin.Password);
+                
+            if(login != null)
             {
-                CN_User loginUser = new CN_User();
-                string login = loginUser.VerificarUser(modelLogin.Email, modelLogin.Password);
-
-                if (login != null)
-                {
-                    List<Claim> claims = new List<Claim>() {
+                List<Claim> claims = new List<Claim>() {
                     new Claim(ClaimTypes.NameIdentifier, login),
                     new Claim("OtherProperties","Example Role")
 
                 };
 
-                    ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims,
-                        CookieAuthenticationDefaults.AuthenticationScheme);
+                ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims,
+                    CookieAuthenticationDefaults.AuthenticationScheme);
 
-                    AuthenticationProperties properties = new AuthenticationProperties()
-                    {
-                        AllowRefresh = true
-                    };
-
-                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                        new ClaimsPrincipal(claimsIdentity), properties);
-
-                    return RedirectToAction("Index", "Home");
-                }
-                else
+                AuthenticationProperties properties = new AuthenticationProperties()
                 {
-                    ViewData["ValidateMessage"] = "No válido";
-                    return View();
-                }
+                    AllowRefresh = true
+                };
 
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                    new ClaimsPrincipal(claimsIdentity), properties);
+
+                return RedirectToAction("Index", "Home");
             }
-
-            ViewData["ValidateMessage"] = "No válido";
-            return View();
+            else
+            {
+                ViewData["ValidateMessage"] = "No válido";
+                return View();
+            }
+                
         }
-        public List<Imagen> Allimages()
+
+        ViewData["ValidateMessage"] = "No válido";
+        return View();
+    }
+        public List<Imagen> Allimages() 
         {
+      
             CN_Image clase = new CN_Image();
+            CN_Arrow claseflecha = new CN_Arrow();
+            List<CN_Image> todaslasimagenes = new List<CN_Image>();
             List<Imagen> lista = new List<Imagen>();
-
-            DataTable tabla = new DataTable();
-            tabla = clase.Getimage();
-            var query = from DataRow linea in tabla.Rows
-                        select new Imagen
-                        {
-                            id = (int)linea[0],
-                            Name = (string)linea[2],
-                            ruta = (string)linea[1],
-                            piso = (int)linea[3]
-
-                        };
-            lista = query.ToList();
+            todaslasimagenes = clase.Getimage();
+            List<CN_Arrow> listaflechas = new List<CN_Arrow>();
+            listaflechas = claseflecha.GetArrow();
+            foreach (CN_Image Negocio in todaslasimagenes)
+            {
+                Imagen imagen = new Imagen();
+                imagen.id = Negocio.id;
+                imagen.Name = Negocio.Name;
+                imagen.ruta = Negocio.ruta;
+                foreach(CN_Arrow flecha in listaflechas)
+                {
+                    if(imagen.id== flecha.id_image)
+                    {
+                        Arrows arrows = new Arrows();
+                        arrows.id = flecha.id;
+                        arrows.id_image = flecha.id_image;
+                        arrows.nodeid = flecha.nodeid;
+                        arrows.posicion = flecha.posicion;
+                        imagen.flechas.Add(arrows);
+                    }
+                }
+                lista.Add(imagen);
+            }
             return lista;
         }
         public JsonResult ObtenerListaImagenes()
         {
-
+           
             List<Imagen> listaImagenes = Allimages();
-
-
+            
+            
             return Json(JsonSerializer.Serialize(listaImagenes));
         }
 
 
-        [EnableCors]
+        [EnableCors] 
         public IActionResult Index()
         {
 

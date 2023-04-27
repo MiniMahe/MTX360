@@ -2973,11 +2973,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1DAW\\Documents\\MTXVIEW\\CAD\\CAD.csproj",
+      "projectUniqueName": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\CAD\\CAD.csproj",
       "projectName": "CAD",
-      "projectPath": "C:\\Users\\1DAW\\Documents\\MTXVIEW\\CAD\\CAD.csproj",
+      "projectPath": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\CAD\\CAD.csproj",
       "packagesPath": "C:\\Users\\1DAW\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1DAW\\Documents\\MTXVIEW\\CAD\\obj\\",
+      "outputPath": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\CAD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\1DAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3035,7 +3035,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
