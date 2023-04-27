@@ -116,8 +116,7 @@ public class AccessController : Controller
         [EnableCors] 
         public IActionResult Index()
         {
-
-            return View();
+            return Planta1();
         }
 
         public IActionResult Planta1()
@@ -128,6 +127,10 @@ public class AccessController : Controller
             ViewData["piso"] = "1";
 
             return View("2Dview", listaClases);
+        }
+        public IActionResult Fotoinicial( int numero ) 
+        {
+            return View("Sphere", numero);
         }
         public IActionResult Planta2()
         {

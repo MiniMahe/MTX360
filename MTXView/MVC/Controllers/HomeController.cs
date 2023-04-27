@@ -25,7 +25,7 @@ namespace AuthProject.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View("2Dview");
         }
         
 

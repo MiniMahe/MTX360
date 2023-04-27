@@ -123,7 +123,7 @@ function PhotoSphere(nodes) {
             [PhotoSphereViewer.VirtualTourPlugin, {
                 //positionMode: 'gps',
                 renderMode: '3d',
-                startNodeId: nodes[0].id,
+                startNodeId: nodes[startnode].id,
                 preload: true,
                 // transition   : false,
                 // rotateSpeed  : false,
