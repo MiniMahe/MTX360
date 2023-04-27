@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y1o/a4eGrmVNVAdwTozJgsfBHSIVu2LJkuWOLab9vQ0=",
+  "Hash": "Ze/xXN1suj8x2pTJu0oR8efMeqatczB2LM5NNKZ0+Bs=",
   "Source": "CP",
   "BasePath": "_content/CP",
   "Mode": "Default",
@@ -867,12 +867,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Cargando.gif",
+      "Identity": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Mapa_Planta_1.png",
       "SourceId": "CP",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\",
       "BasePath": "_content/CP",
-      "RelativePath": "lib/imgs/Cargando.gif",
+      "RelativePath": "lib/imgs/Mapa_Planta_1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -881,15 +881,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\imgs\\Cargando.gif"
+      "OriginalItemSpec": "wwwroot\\lib\\imgs\\Mapa_Planta_1.png"
     },
     {
-      "Identity": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Mapa_Planta_baja.png",
+      "Identity": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Mapa_Planta_2.png",
       "SourceId": "CP",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\",
       "BasePath": "_content/CP",
-      "RelativePath": "lib/imgs/Mapa_Planta_baja.png",
+      "RelativePath": "lib/imgs/Mapa_Planta_2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -898,7 +898,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\imgs\\Mapa_Planta_baja.png"
+      "OriginalItemSpec": "wwwroot\\lib\\imgs\\Mapa_Planta_2.png"
+    },
+    {
+      "Identity": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Mapa_Planta_3.png",
+      "SourceId": "CP",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\",
+      "BasePath": "_content/CP",
+      "RelativePath": "lib/imgs/Mapa_Planta_3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\imgs\\Mapa_Planta_3.png"
     },
     {
       "Identity": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\jquery\\dist\\jquery.js",

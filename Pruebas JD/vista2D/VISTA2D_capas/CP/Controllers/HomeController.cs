@@ -17,6 +17,7 @@ namespace CP.Controllers
             
             ListaClases listaClases = new ListaClases();
             listaClases.RellenarLista();
+            ViewData["piso"] = "1";
 
             return View(listaClases);
         }
@@ -24,6 +25,7 @@ namespace CP.Controllers
         {
             ListaClases listaClases = new ListaClases();
             listaClases.RellenarLista(1);
+            ViewData["piso"] = "2";
 
             return View("Index", listaClases);
         }
@@ -31,6 +33,8 @@ namespace CP.Controllers
         {
             ListaClases listaClases = new ListaClases();
             listaClases.RellenarLista(2);
+            ViewData["piso"] = "3";
+
 
             return View("Index",listaClases);
         }

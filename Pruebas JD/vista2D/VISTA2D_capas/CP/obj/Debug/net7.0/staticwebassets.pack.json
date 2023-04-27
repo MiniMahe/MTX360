@@ -197,12 +197,16 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Cargando.gif",
-      "PackagePath": "staticwebassets\\lib\\imgs\\Cargando.gif"
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Mapa_Planta_1.png",
+      "PackagePath": "staticwebassets\\lib\\imgs\\Mapa_Planta_1.png"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Mapa_Planta_baja.png",
-      "PackagePath": "staticwebassets\\lib\\imgs\\Mapa_Planta_baja.png"
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Mapa_Planta_2.png",
+      "PackagePath": "staticwebassets\\lib\\imgs\\Mapa_Planta_2.png"
+    },
+    {
+      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\imgs\\Mapa_Planta_3.png",
+      "PackagePath": "staticwebassets\\lib\\imgs\\Mapa_Planta_3.png"
     },
     {
       "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\Pruebas JD\\vista2D\\VISTA2D_capas\\CP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

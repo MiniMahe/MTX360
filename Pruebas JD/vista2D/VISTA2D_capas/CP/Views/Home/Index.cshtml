@@ -41,7 +41,7 @@
 
 
 <div class="contenedor-fondo">
-    <img src="~/lib/imgs/Mapa_Planta_baja.png" alt="mapa" id="mapa" usemap="#mapa">
+    <img src="~/lib/imgs/Mapa_Planta_@(ViewData["piso"]).png" alt="mapa" id="mapa" usemap="#mapa">
 
     <map name="mapa">
         @foreach(var sala in Model.Salas){
