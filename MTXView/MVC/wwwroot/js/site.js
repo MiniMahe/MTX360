@@ -2,45 +2,6 @@
 const base = 'https://minimahe.github.io/MTX360/fotos/';
 
 function promesa() {
-    //const nodes = [
-    //    {
-    //        id: '0',
-    //        panorama: base + '1.JPG',
-    //        thumbnail: baseUrl + 'tour/key-biscayne-1-thumb.jpg',
-    //        name: 'One',
-    //        links: [{ nodeId: '2', position: { pitch: 0, yaw: '100deg' } }],
-    //        gps: [-80.156350, 25.666750, 3],
-    //        panoData: { poseHeading: 327 },
-    //        map: { x: 660, y: 570, color: '#fffd99' },
-    //    },
-    //    {
-    //        id: '200',
-    //        panorama: base + '1.JPG',
-    //        thumbnail: baseUrl + 'tour/key-biscayne-1-thumb.jpg',
-    //        name: 'One',
-    //        links: [{ nodeId: '1', position: { pitch: 0, yaw: '100deg' } }],
-    //        gps: [-80.156350, 25.666750, 3],
-    //        panoData: { poseHeading: 327 },
-    //        map: { x: 660, y: 570, color: '#fffd99' },
-    //    },
-    //];
-    //$.ajax({
-    //    url: "/Access/ObtenerListaImagenes",
-    //    type: "GET",
-    //    success: function (datosListaImagenes) {
-    //        let listaImagenes = JSON.parse(datosListaImagenes);
-    //        listaImagenes.forEach(function (item) {
-    //            const newNode = {
-    //                ...nodes[item.id], id: item.id.toString(),
-    //                ...nodes[item.Name], name: item.Name.toString(),
-    //                ...nodes[item.ruta], panorama: base + item.ruta,
-    //                ...nodes[item.links], links: item.links
-    //            };
-    //            nodes.push(newNode);
-    //        })
-    //        photoSphere(nodes);
-    //    }
-    //});
     $.ajax({
         url: "/Access/ObtenerListaImagenes",
         type: "GET",
@@ -63,7 +24,6 @@ function promesa() {
                     thumbnail: baseUrl + 'tour/key-biscayne-1-thumb.jpg',
                     name: nombreImagen,
                     links: flechas,
-                    //gps: [-80.156350, 25.666750, 3],
                     panoData: { poseHeading: 100 },
                     map: { x: 660, y: 570, color: '#fffd99' },
                 };
@@ -71,7 +31,6 @@ function promesa() {
                 imagenes.push(imagenObj);
 
             });
-            // Resuelve la promesa con el resultado de la llamada AJAX
             PhotoSphere(imagenes);
         }
     });
@@ -138,20 +97,6 @@ function PhotoSphere(nodes) {
                     size: { width: 1600, height: 1200 },
                     extent: [-80.158123, 25.668050, -80.153824, 25.660408],
                 },
-
-                //server mode (mock)
-                //dataMode: 'server',
-                //getNode: (nodeId) => {
-                //    console.log('GET node ' + nodeId);
-                //    return Promise.resolve({
-                //        ...nodesById[nodeId],
-                //        links: nodesById[nodeId].links.map((link) => ({
-                //            ...link,
-                //            name: nodesById[link.nodeId].name,
-                //            gps: nodesById[link.nodeId].gps,
-                //        })),
-                //    });
-                //},
             }],
         ],
     });
