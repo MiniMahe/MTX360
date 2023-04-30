@@ -26,8 +26,7 @@ namespace CN
                         {
                             id = (int)linea[0],
                             ruta = (string)linea[1],
-                            Name = (string)linea[2],
-                            piso = (int)linea[3]
+                            Name = (string)linea[2]
                         };
             imagenes = query.ToList();
             return imagenes;

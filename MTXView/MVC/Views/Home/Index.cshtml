@@ -1,8 +1,67 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model MVC.Models.ListaClases
+
+@{
+    Layout = "_2DviewLY";
 }
 
+<div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark caja-lateral">
 
-    <img src="@Url.Action("getImage","Home")" alt="Imagen">
-   
 
+
+    <div class="btn-group btn-group-justified botones-planta">
+        @Html.ActionLink("Planta 1","Planta1","Access",null,new{@class="btn btn-primary boton-planta"})
+        @Html.ActionLink("Planta 2","Planta2","Access",null,new{@class="btn btn-primary boton-planta"})
+        @Html.ActionLink("Planta 3","Planta3","Access",null,new{@class="btn btn-primary boton-planta"})
+    </div>
+
+
+
+    <input type="search" class="form-control buscador" placeholder="Search" aria-label="Search"
+           aria-describedby="search-addon" />
+
+    <hr>
+    <div class="barra-lateral">
+        <ul class="nav nav-pills flex-column mb-auto caja-aulas-abajo">
+            @foreach (var sala in Model.Salas)
+            {
+                <li class="nav-item enlace-aula">
+
+                    <a href="@Url.Action("Fotoinicial", new { miValor = sala.url })" class="nav-link bi me-2 text-white" aria-current="page" width="16" height="16">
+                        <img src="~/lib/imgs/@sala.imagen" class="img-aula" alt="" width="32" height="32">
+                        @sala.aula
+                    </a>
+                </li>
+
+            }
+
+
+
+        </ul>
+    </div>
+    <hr>
+    <div class="position-relative">
+        <div class="position-absolute top-100 start-100 translate-middle">
+        <a href="@Url.Action("LogOut", new { })" class="btn btn-danger" aria-current="page" width="16" height="16">
+            LogOut
+        </a>
+        </div>
+    </div>
+    <hr>
+
+</div>
+
+
+
+<div class="contenedor-fondo">
+    <img src="~/lib/imgs/Mapa_Planta_@(ViewData["piso"]).png" alt="mapa" id="mapa" usemap="#mapa">
+
+    @using (Html.BeginForm("Edit", "Home", FormMethod.Post, new { @class = "card-body cardbody-color p-lg-5" }))
+    {
+        <div class="mb-3 position-relative">
+            @Html.TextBoxFor(a => a.name, new {@class = "form-control", @textindex = "1"})
+        </div>
+        <div class="mb-3 position-relative">
+            @Html.TextBoxFor(m => m.url, new {@class = "form-control", @textindex = "2"})
+        </div>
+    }
+</div>
