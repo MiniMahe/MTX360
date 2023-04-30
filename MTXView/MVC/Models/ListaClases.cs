@@ -16,6 +16,7 @@ namespace MVC.Models
             CT_CD_2D cT_CD_2D = new CT_CD_2D();
             Salas = cT_CD_2D.ConvertirDataTableALista(idpiso);
         }
+        public int id { get; set; }
         public string name { get; set; }
         public string url { get; set; }
     }

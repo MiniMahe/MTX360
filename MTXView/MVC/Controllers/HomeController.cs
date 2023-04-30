@@ -44,6 +44,16 @@ namespace AuthProject.Controllers
 
             return View("Index", listaClases);
         }
+        public IActionResult Edit(int id, int piso,string name)
+        {
+            ListaClases clases = new ListaClases();
+            clases.RellenarLista();
+            ViewData["piso"] = piso;
+            clases.id = id;
+            clases.name = name;
+
+            return View("Index",clases);
+        }
 
         public async Task<IActionResult> LogOut()
         {
