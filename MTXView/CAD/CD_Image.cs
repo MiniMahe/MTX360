@@ -22,5 +22,24 @@ namespace Image
                 return dataTable;
             }
         }
+
+
+        public void Editar(int id, string nombre, string ruta)
+        {
+            using (MySqlConnection conexionsql = new MySqlConnection(CD_Conexion.ConexionStr()))
+            {
+                using (MySqlCommand command = new MySqlCommand("ModificarImagen", conexionsql))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@idmod", id).Direction = ParameterDirection.InputOutput;
+                    command.Parameters.AddWithValue("@nombremod", nombre).Direction = ParameterDirection.InputOutput;
+                    command.Parameters.AddWithValue("@rutamod", ruta).Direction = ParameterDirection.InputOutput;
+
+                    conexionsql.Open();
+                    command.ExecuteNonQuery();
+
+                }
+            }
+        }
     }
 }

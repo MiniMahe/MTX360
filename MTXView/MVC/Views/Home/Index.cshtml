@@ -9,9 +9,9 @@
 
 
     <div class="btn-group btn-group-justified botones-planta">
-        @Html.ActionLink("Planta 1","Planta1","Access",null,new{@class="btn btn-primary boton-planta"})
-        @Html.ActionLink("Planta 2","Planta2","Access",null,new{@class="btn btn-primary boton-planta"})
-        @Html.ActionLink("Planta 3","Planta3","Access",null,new{@class="btn btn-primary boton-planta"})
+        @Html.ActionLink("Planta 1","Planta1","Home",null,new{@class="btn btn-primary boton-planta"})
+        @Html.ActionLink("Planta 2","Planta2","Home",null,new{@class="btn btn-primary boton-planta"})
+        @Html.ActionLink("Planta 3","Planta3","Home",null,new{@class="btn btn-primary boton-planta"})
     </div>
 
 
@@ -25,7 +25,7 @@
             @foreach (var sala in Model.Salas)
             {
                 <li>
-                <a href="@Url.Action("Edit", new { id = sala.url, nombre= sala.aula })" class="nav-link bi me-2 text-white" aria-current="page" width="16" height="16">
+                    <a href="@Url.Action("Edit", new { id = sala.url, name=sala.aula ,piso=ViewData["piso"]})" class="nav-link bi me-2 text-white" aria-current="page" width="16" height="16">
                         <img src="~/lib/imgs/@sala.imagen" class="img-aula" alt="" width="32" height="32">
                         @sala.aula
                     </a>
@@ -52,22 +52,25 @@
 
     
 </div>
+@if(Model.name != null){
 <div class="card " style="width:30%; position:absolute; right:0; ">
     @using (Html.BeginForm("Edit", "Home", FormMethod.Post, new { @class = "card-body cardbody-color p-lg-5" }))
     {
-        if (Context.Request.RouteValues.ContainsKey("id"))
-        {
+       
             
-        @Html.TextBoxFor(x => x.id, new {@class = "form-control", @textindex = "1", @type = "hidden", @value = (string)Context.Request.RouteValues["id"]})
+        @Html.TextBoxFor(x => x.id, new {@class = "form-control", @textindex = "3", @type = "hidden", @value=Model.id})
         <div class="mb-3 position-relative">
-            @Html.TextBoxFor(a => a.name, new {@class = "form-control", @textindex = "1", @value = (string)Context.Request.RouteValues["nombre"]})
+            <label>Nombre</label>
+            @Html.TextBoxFor(a => a.name, new { @class = "form-control", @textindex = "1", @value=Model.name })
         </div>
         <div class="mb-3 position-relative">
-            @Html.TextBoxFor(m => m.url, new {@class = "form-control", @textindex = "2", @value = (string)Context.Request.RouteValues["ruta"]})
+            <label>Ruta</label>
+            @Html.TextBoxFor(m => m.url, new {@class = "form-control", @textindex = "2"})
         </div>
         <div class="text-center"><button type="submit" class="btn btn-color px-5 mb-5 w-100">Editar</button></div>
 
-        }
+       
     }
 
 </div>
+}

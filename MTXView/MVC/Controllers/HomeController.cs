@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using System.Drawing;
 using System.Drawing.Imaging;
+using CN;
 
 namespace AuthProject.Controllers
 {
@@ -44,17 +45,27 @@ namespace AuthProject.Controllers
 
             return View("Index", listaClases);
         }
-        public IActionResult Edit(int id, int piso,string name)
+        public IActionResult Edit(int id, int piso, string name)
         {
             ListaClases clases = new ListaClases();
-            clases.RellenarLista();
+            clases.RellenarLista(piso-1);
             ViewData["piso"] = piso;
             clases.id = id;
             clases.name = name;
 
-            return View("Index",clases);
+            return View("Index", clases);
         }
+        [HttpPost]
+        public IActionResult Edit(ListaClases listaClases)
+        {
+            ListaClases clases = new ListaClases();
+            clases.RellenarLista();
+            ViewData["piso"] = 1;
+            CN_editar cN_Editar = new CN_editar();
+            cN_Editar.Editar(listaClases.id+1,listaClases.name,listaClases.url);
 
+            return View("Index", clases);
+        }
         public async Task<IActionResult> LogOut()
         {
 
