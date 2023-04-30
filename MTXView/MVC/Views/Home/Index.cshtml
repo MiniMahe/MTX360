@@ -55,13 +55,14 @@
 <div class="contenedor-fondo">
     <img src="~/lib/imgs/Mapa_Planta_@(ViewData["piso"]).png" alt="mapa" id="mapa" usemap="#mapa">
 
-    @using (Html.BeginForm("Edit", "Home", FormMethod.Post, new { @class = "card-body cardbody-color p-lg-5" }))
-    {
-        <div class="mb-3 position-relative">
-            @Html.TextBoxFor(a => a.name, new {@class = "form-control", @textindex = "1"})
-        </div>
-        <div class="mb-3 position-relative">
-            @Html.TextBoxFor(m => m.url, new {@class = "form-control", @textindex = "2"})
-        </div>
-    }
+    
 </div>
+@using (Html.BeginForm("Edit", "Home", FormMethod.Post, new { @class = "card-body cardbody-color p-lg-5" }))
+{
+    <div class="mb-3 position-relative">
+        @Html.TextBoxFor(a => a.name, new {@class = "form-control", @textindex = "1"})
+    </div>
+    <div class="mb-3 position-relative">
+        @Html.TextBoxFor(m => m.url, new {@class = "form-control", @textindex = "2"})
+    </div>
+}

@@ -9,61 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MVC
 build_property.RootNamespace = MVC
-build_property.ProjectDir = C:\Users\JD\Desktop\MTX360\MTXView\MVC\
+build_property.ProjectDir = C:\Users\maelm\Escritorio\Clase\MTX360-main\MTXView\MVC\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\JD\Desktop\MTX360\MTXView\MVC
+build_property.MSBuildProjectDirectory = C:\Users\maelm\Escritorio\Clase\MTX360-main\MTXView\MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/Access/2Dview.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/Access/2Dview.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXDJEdmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/Access/Login.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/Access/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/Access/Sphere.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/Access/Sphere.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXFNwaGVyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/Home/Index.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/Shared/Error.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/Shared/_2DviewLY.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/Shared/_2DviewLY.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF8yRHZpZXdMWS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/_ViewImports.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/_ViewStart.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/Shared/_Header.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/Shared/_Header.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tkj05ze3to
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/Shared/_Layout.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q0a04yuu0e
 
-[C:/Users/JD/Desktop/MTX360/MTXView/MVC/Views/Shared/_Sphere.cshtml]
+[C:/Users/maelm/Escritorio/Clase/MTX360-main/MTXView/MVC/Views/Shared/_Sphere.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TcGhlcmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fd7ondoi2l
