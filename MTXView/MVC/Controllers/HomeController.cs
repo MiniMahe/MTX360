@@ -72,5 +72,49 @@ namespace AuthProject.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login", "Access");
         }
+        public IActionResult CFlecha(int idimg, int node, string pos)
+        {
+            Arrows flecha = new Arrows();
+            flecha.id_image = idimg;
+            flecha.nodeid = node;
+            flecha.posicion = pos;
+            return View();
+        }
+        [HttpPost]
+        public IActionResult CFlecha(Arrows flecha)
+        {
+            CN_Arrow negocio = new CN_Arrow();
+            negocio.Crear(flecha.id_image, flecha.nodeid, flecha.posicion);
+            return View("CFlecha");
+        }
+        public IActionResult EdFlecha(int id,int idimg, int node, string pos)
+        {
+            Arrows flecha = new Arrows();
+            flecha.id = id;
+            flecha.id_image = idimg;
+            flecha.nodeid = node;
+            flecha.posicion = pos;
+            return View();
+        }
+        [HttpPost]
+        public IActionResult EdFlecha(Arrows flecha)
+        {
+            CN_Arrow negocio = new CN_Arrow();
+            negocio.Editar(flecha.id,flecha.id_image, flecha.nodeid, flecha.posicion);
+            return View("EdFlecha");
+        }
+        public IActionResult ElFlecha(int id)
+        {
+            Arrows flecha = new Arrows();
+            flecha.id = id;
+            return View();
+        }
+        [HttpPost]
+        public IActionResult ElFlecha(Arrows flecha)
+        {
+            CN_Arrow negocio = new CN_Arrow();
+            negocio.Eliminar(flecha.id);
+            return View("CFlecha");
+        }
     }
 }
