@@ -4,6 +4,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using CAD;
 using CapaDatos;
 using Image;
@@ -33,6 +34,21 @@ namespace CN
                         };
             flechas = query.ToList();
             return flechas;
+        }
+        public void Crear(int idimg, int node, string pos)
+        {
+            CD_Arrow flechas = new CD_Arrow();
+            flechas.Crear(idimg, node, pos);
+        }
+        public void Editar(int id,int idimg, int node, string pos)
+        {
+            CD_Arrow flechas = new CD_Arrow();
+            flechas.Editar(id,idimg, node, pos);
+        }
+        public void Eliminar(int id)
+        {
+            CD_Arrow flechas = new CD_Arrow();
+            flechas.Eliminar(id);
         }
     }
 }
