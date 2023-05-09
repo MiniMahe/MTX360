@@ -1,587 +1,587 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MVC.bundle.scp.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\MVC.bundle.scp.css",
       "PackagePath": "staticwebassets\\MVC.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\css\\2D.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\css\\2D.css",
       "PackagePath": "staticwebassets\\css\\2D.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\css\\scrollbar.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\css\\scrollbar.css",
       "PackagePath": "staticwebassets\\css\\scrollbar.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\img\\Doodle_Dimension_penguin.webp",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\img\\Doodle_Dimension_penguin.webp",
       "PackagePath": "staticwebassets\\img\\Doodle_Dimension_penguin.webp"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\img\\avatar-1295397__340.png",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\img\\avatar-1295397__340.png",
       "PackagePath": "staticwebassets\\img\\avatar-1295397__340.png"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\js\\buscador.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\js\\buscador.js",
       "PackagePath": "staticwebassets\\js\\buscador.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\Baladre.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\Baladre.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\Baladre.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\Curie.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\Curie.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\Curie.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\FONDO-ESCRITORIO.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\FONDO-ESCRITORIO.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\FONDO-ESCRITORIO.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\FyQ.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\FyQ.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\FyQ.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\Mapa_Planta_1.png",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\Mapa_Planta_1.png",
       "PackagePath": "staticwebassets\\lib\\imgs\\Mapa_Planta_1.png"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\Mapa_Planta_2.png",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\Mapa_Planta_2.png",
       "PackagePath": "staticwebassets\\lib\\imgs\\Mapa_Planta_2.png"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\Mapa_Planta_3.png",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\Mapa_Planta_3.png",
       "PackagePath": "staticwebassets\\lib\\imgs\\Mapa_Planta_3.png"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\agora.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\agora.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\agora.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\aitana.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\aitana.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\aitana.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\altamira.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\altamira.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\altamira.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\arcoiris.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\arcoiris.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\arcoiris.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\atenea.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\atenea.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\atenea.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\biblioteca.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\biblioteca.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\biblioteca.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\biologia.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\biologia.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\biologia.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\cantina.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\cantina.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\cantina.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\castellano.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\castellano.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\castellano.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\cian.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\cian.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\cian.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\corto.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\corto.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\corto.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\deptinformatica.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\deptinformatica.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\deptinformatica.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\deptmusica.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\deptmusica.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\deptmusica.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\dublin.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\dublin.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\dublin.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\e.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\e.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\e.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\ecofol.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\ecofol.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\ecofol.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\espartar.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\espartar.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\espartar.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\estelles.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\estelles.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\estelles.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\estetica1.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\estetica1.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\estetica1.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\estetica2.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\estetica2.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\estetica2.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\fisica.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\fisica.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\fisica.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\frances.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\frances.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\frances.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\galileo.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\galileo.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\galileo.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\geografia.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\geografia.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\geografia.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\germinal.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\germinal.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\germinal.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\guernica.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\guernica.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\guernica.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\hall.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\hall.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\hall.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\iberia.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\iberia.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\iberia.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info1.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info1.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\info1.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info2.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info2.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\info2.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info3.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info3.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\info3.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info4.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info4.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\info4.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info5.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info5.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\info5.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info6.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info6.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\info6.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info7.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info7.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\info7.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info8.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\info8.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\info8.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\ingles.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\ingles.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\ingles.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\joan.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\joan.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\joan.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\leonardo.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\leonardo.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\leonardo.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\london.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\london.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\london.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\macondo.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\macondo.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\macondo.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\magenta.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\magenta.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\magenta.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\marcal.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\marcal.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\marcal.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\margallo.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\margallo.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\margallo.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\matematicas.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\matematicas.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\matematicas.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\musica1.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\musica1.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\musica1.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\musica2.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\musica2.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\musica2.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\newyork.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\newyork.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\newyork.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\o.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\o.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\o.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\oleza.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\oleza.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\oleza.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\orara.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\orara.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\orara.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\paname.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\paname.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\paname.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pandora.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pandora.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\pandora.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasilloamarillo.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasilloamarillo.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\pasilloamarillo.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasilloazul.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasilloazul.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\pasilloazul.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasillocentro.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasillocentro.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\pasillocentro.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasillonaranja.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasillonaranja.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\pasillonaranja.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasillorojo.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasillorojo.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\pasillorojo.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasillorosa.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasillorosa.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\pasillorosa.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasilloverde.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pasilloverde.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\pasilloverde.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pi.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\pi.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\pi.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\plastica.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\plastica.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\plastica.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\profesorado.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\profesorado.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\profesorado.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\quercus.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\quercus.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\quercus.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\raiz.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\raiz.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\raiz.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\regenta.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\regenta.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\regenta.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\relatividad.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\relatividad.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\relatividad.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\sabios.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\sabios.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\sabios.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\sidney.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\sidney.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\sidney.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\simo.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\simo.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\simo.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\tec.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\tec.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\tec.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\usos.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\usos.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\usos.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\valenciano.jpg",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\valenciano.jpg",
       "PackagePath": "staticwebassets\\lib\\imgs\\valenciano.jpg"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
