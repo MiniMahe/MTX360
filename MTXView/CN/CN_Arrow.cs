@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using CAD;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using CAD;
-using CapaDatos;
-using Image;
 
 namespace CN
 {
-    
+
     public class CN_Arrow
     {
         public int id { get; set; }
@@ -40,10 +32,10 @@ namespace CN
             CD_Arrow flechas = new CD_Arrow();
             flechas.Crear(idimg, node, pos);
         }
-        public void Editar(int id,int idimg, int node, string pos)
+        public void Editar(int id, int idimg, int node, string pos)
         {
             CD_Arrow flechas = new CD_Arrow();
-            flechas.Editar(id,idimg, node, pos);
+            flechas.Editar(id, idimg, node, pos);
         }
         public void Eliminar(int id)
         {

@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Image;
 using System.Data;
-using CapaDatos;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Image;
 
 namespace CN
 {
@@ -31,6 +25,6 @@ namespace CN
             imagenes = query.ToList();
             return imagenes;
         }
-        
+
     }
 }

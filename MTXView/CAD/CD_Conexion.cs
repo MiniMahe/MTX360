@@ -1,8 +1,4 @@
-﻿using System.Data;
-using System.Data.SqlClient;
-using System.Xml;
-using MySql.Data;
-using MySql.Data.MySqlClient;
+﻿using System.Xml;
 
 namespace CapaDatos
 {
@@ -19,5 +15,5 @@ namespace CapaDatos
             }
         }
     }
-   
+
 }

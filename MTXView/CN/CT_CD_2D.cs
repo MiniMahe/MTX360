@@ -14,7 +14,7 @@ namespace Negocio
 
 
 
-        public List<CT_CD_2D> ConvertirDataTableALista( int pisoid = 0)
+        public List<CT_CD_2D> ConvertirDataTableALista(int pisoid = 0)
         {
             DT_CAD_2D dT_CAD_2D = new DT_CAD_2D();
             DataTable dataTable;
@@ -33,9 +33,9 @@ namespace Negocio
                 modelo.url = row["url"].ToString();
 
 
-                if (pisoid == modelo.piso) 
+                if (pisoid == modelo.piso)
                 {
-                    lista.Add(modelo); 
+                    lista.Add(modelo);
                 }
             }
 

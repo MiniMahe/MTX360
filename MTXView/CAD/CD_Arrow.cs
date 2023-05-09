@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using CapaDatos;
+﻿using CapaDatos;
 using MySql.Data.MySqlClient;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Data;
 
 namespace CAD
 {
@@ -25,7 +18,7 @@ namespace CAD
                 return dataTable;
             }
         }
-        public void Crear(int idim,int nodo, string pos)
+        public void Crear(int idim, int nodo, string pos)
         {
             using (MySqlConnection conexionsql = new(CD_Conexion.ConexionStr()))
             {
@@ -41,7 +34,7 @@ namespace CAD
                 }
             }
         }
-        public void Editar(int id,int idimg, int node, string pos)
+        public void Editar(int id, int idimg, int node, string pos)
         {
             using (MySqlConnection conexionsql = new(CD_Conexion.ConexionStr()))
             {

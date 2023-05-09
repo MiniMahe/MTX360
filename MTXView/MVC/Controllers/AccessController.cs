@@ -1,79 +1,73 @@
-﻿using Negocio;
-using MVC.Models;
+﻿using CN;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Mvc;
-using System.Data;
-using System.Security.Claims;
-using System.IO;
 using Microsoft.AspNetCore.Cors;
-using System.Drawing.Text;
-using CN;
-using System.Drawing;
-using System.ComponentModel;
-using System.Reflection;
+using Microsoft.AspNetCore.Mvc;
+using MVC.Models;
+using Negocio;
+using System.Security.Claims;
 using System.Text.Json;
 
 namespace MVC.Controllers
 {
-public class AccessController : Controller
-{
-    public IActionResult Login()
+    public class AccessController : Controller
     {
-        ClaimsPrincipal claimUser = HttpContext.User;
-
-        if (claimUser.Identity.IsAuthenticated)
-            return RedirectToAction("Index", "Home");
-
-           
-
-        return View("Login");
-    }
-
-    [HttpPost]
-    public async Task<IActionResult> Login(Login modelLogin)
-    {
-
-        if(ModelState.IsValid)
+        public IActionResult Login()
         {
-            CN_User loginUser = new CN_User();
-            string login = loginUser.VerificarUser(modelLogin.Email, modelLogin.Password);
-                
-            if(login != null)
+            ClaimsPrincipal claimUser = HttpContext.User;
+
+            if (claimUser.Identity.IsAuthenticated)
+                return RedirectToAction("Index", "Home");
+
+
+
+            return View("Login");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(Login modelLogin)
+        {
+
+            if (ModelState.IsValid)
             {
-                List<Claim> claims = new List<Claim>() {
+                CN_User loginUser = new CN_User();
+                string login = loginUser.VerificarUser(modelLogin.Email, modelLogin.Password);
+
+                if (login != null)
+                {
+                    List<Claim> claims = new List<Claim>() {
                     new Claim(ClaimTypes.NameIdentifier, login),
                     new Claim("OtherProperties","Example Role")
 
                 };
 
-                ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims,
-                    CookieAuthenticationDefaults.AuthenticationScheme);
+                    ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims,
+                        CookieAuthenticationDefaults.AuthenticationScheme);
 
-                AuthenticationProperties properties = new AuthenticationProperties()
+                    AuthenticationProperties properties = new AuthenticationProperties()
+                    {
+                        AllowRefresh = true
+                    };
+
+                    await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                        new ClaimsPrincipal(claimsIdentity), properties);
+
+                    return RedirectToAction("Index", "Home");
+                }
+                else
                 {
-                    AllowRefresh = true
-                };
+                    ViewData["ValidateMessage"] = "No válido";
+                    return View();
+                }
 
-                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                    new ClaimsPrincipal(claimsIdentity), properties);
+            }
 
-                return RedirectToAction("Index", "Home");
-            }
-            else
-            {
-                ViewData["ValidateMessage"] = "No válido";
-                return View();
-            }
-                
+            ViewData["ValidateMessage"] = "No válido";
+            return View();
         }
-
-        ViewData["ValidateMessage"] = "No válido";
-        return View();
-    }
-        public List<Imagen> Allimages() 
+        public List<Imagen> Allimages()
         {
-      
+
             CN_Image clase = new CN_Image();
             CN_Arrow claseflecha = new CN_Arrow();
             List<CN_Image> todaslasimagenes = new List<CN_Image>();
@@ -87,9 +81,9 @@ public class AccessController : Controller
                 imagen.id = Negocio.id;
                 imagen.Name = Negocio.Name;
                 imagen.ruta = Negocio.ruta;
-                foreach(CN_Arrow flecha in listaflechas)
+                foreach (CN_Arrow flecha in listaflechas)
                 {
-                    if(imagen.id== flecha.id_image)
+                    if (imagen.id == flecha.id_image)
                     {
                         Arrows arrows = new Arrows();
                         arrows.id = flecha.id;
@@ -105,15 +99,15 @@ public class AccessController : Controller
         }
         public JsonResult ObtenerListaImagenes()
         {
-           
+
             List<Imagen> listaImagenes = Allimages();
-            
-            
+
+
             return Json(JsonSerializer.Serialize(listaImagenes));
         }
 
 
-        [EnableCors] 
+        [EnableCors]
         public IActionResult Index()
         {
             return Planta1();
@@ -128,7 +122,7 @@ public class AccessController : Controller
 
             return View("2Dview", listaClases);
         }
-        public IActionResult Fotoinicial( int numero ) 
+        public IActionResult Fotoinicial(int numero)
         {
             return View("Sphere", numero);
         }

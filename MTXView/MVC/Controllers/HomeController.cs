@@ -1,14 +1,9 @@
-﻿using MVC.Models;
-using System;
-using Negocio;
+﻿using CN;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.IO;
-using System.Drawing;
-using System.Drawing.Imaging;
-using CN;
+using MVC.Models;
 
 namespace MVC.Controllers
 {
@@ -48,7 +43,7 @@ namespace MVC.Controllers
         public IActionResult Edit(int id, int piso, string name)
         {
             ListaClases clases = new ListaClases();
-            clases.RellenarLista(piso-1);
+            clases.RellenarLista(piso - 1);
             ViewData["piso"] = piso;
             clases.id = id;
             clases.name = name;
@@ -62,7 +57,7 @@ namespace MVC.Controllers
             clases.RellenarLista();
             ViewData["piso"] = 1;
             CN_editar cN_Editar = new CN_editar();
-            cN_Editar.Editar(listaClases.id+1,listaClases.name,listaClases.url);
+            cN_Editar.Editar(listaClases.id + 1, listaClases.name, listaClases.url);
 
             return View("Index", clases);
         }
@@ -91,7 +86,7 @@ namespace MVC.Controllers
         }
         public IActionResult CFlecha()
         {
-            
+
             return View();
         }
         [HttpPost]
@@ -102,7 +97,7 @@ namespace MVC.Controllers
             return RedirectToAction("Flechas");
 
         }
-        public IActionResult EdFlecha(int id,int idimg, int nodo, string pos)
+        public IActionResult EdFlecha(int id, int idimg, int nodo, string pos)
         {
             Arrows flecha = new Arrows();
             flecha.id = id;
@@ -115,7 +110,7 @@ namespace MVC.Controllers
         public IActionResult EdFlecha(Arrows flecha)
         {
             CN_Arrow negocio = new CN_Arrow();
-            negocio.Editar(flecha.id,flecha.id_image, flecha.nodeid, flecha.posicion);
+            negocio.Editar(flecha.id, flecha.id_image, flecha.nodeid, flecha.posicion);
             return RedirectToAction("Flechas");
         }
         public IActionResult ElFlecha(int id)

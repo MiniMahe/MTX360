@@ -1,7 +1,6 @@
-﻿using System.Data;
-using System.Data.SqlClient;
-using CapaDatos;
+﻿using CapaDatos;
 using MySql.Data.MySqlClient;
+using System.Data;
 
 
 namespace Datos

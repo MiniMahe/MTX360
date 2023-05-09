@@ -1,21 +1,19 @@
 ﻿using CapaDatos;
-using Microsoft.Identity.Client;
 using MySql.Data.MySqlClient;
 using System.Data;
-using System.Data.SqlClient;
-using System.Net.Http;
-using System.Security.Claims;
 
 namespace Datos
 {
-    public class CD_User {
+    public class CD_User
+    {
         MySqlDataReader leer;
-        
+
         public string Verify(string nombre, string password)
         {
             try
             {
-                using (MySqlConnection conexionsql = new(CD_Conexion.ConexionStr())) { 
+                using (MySqlConnection conexionsql = new(CD_Conexion.ConexionStr()))
+                {
                     using (MySqlCommand comando = new MySqlCommand("Verificar", conexionsql))
                     {
                         comando.CommandType = CommandType.StoredProcedure;
@@ -46,6 +44,6 @@ namespace Datos
 
                 return null;
             }
-            }
         }
     }
+}
