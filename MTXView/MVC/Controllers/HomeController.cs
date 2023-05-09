@@ -10,7 +10,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using CN;
 
-namespace AuthProject.Controllers
+namespace MVC.Controllers
 {
     [Authorize]
     public class HomeController : Controller
@@ -89,20 +89,17 @@ namespace AuthProject.Controllers
             }
             return View(flechas);
         }
-        public IActionResult CFlecha(int idimg, int node, string pos)
+        public IActionResult CFlecha()
         {
-            Arrows flecha = new Arrows();
-            flecha.id_image = idimg;
-            flecha.nodeid = node;
-            flecha.posicion = pos;
-            return View(flecha);
+            
+            return View();
         }
         [HttpPost]
         public IActionResult CFlecha(Arrows flecha)
         {
             CN_Arrow negocio = new CN_Arrow();
             negocio.Crear(flecha.id_image, flecha.nodeid, flecha.posicion);
-            return RedirectToAction("CFlecha");
+            return RedirectToAction("Flechas");
 
         }
         public IActionResult EdFlecha(int id,int idimg, int nodo, string pos)

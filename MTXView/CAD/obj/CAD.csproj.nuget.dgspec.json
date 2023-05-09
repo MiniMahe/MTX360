@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maelm\\Escritorio\\Clase\\MTX360-main\\MTXView\\CAD\\CAD.csproj": {}
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\CAD\\CAD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maelm\\Escritorio\\Clase\\MTX360-main\\MTXView\\CAD\\CAD.csproj": {
+    "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\CAD\\CAD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maelm\\Escritorio\\Clase\\MTX360-main\\MTXView\\CAD\\CAD.csproj",
+        "projectUniqueName": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\CAD\\CAD.csproj",
         "projectName": "CAD",
-        "projectPath": "C:\\Users\\maelm\\Escritorio\\Clase\\MTX360-main\\MTXView\\CAD\\CAD.csproj",
-        "packagesPath": "C:\\Users\\maelm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maelm\\Escritorio\\Clase\\MTX360-main\\MTXView\\CAD\\obj\\",
+        "projectPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\CAD\\CAD.csproj",
+        "packagesPath": "C:\\Users\\trast\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trast\\OneDrive\\Escritorio\\MTX360\\MTXView\\CAD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\maelm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\trast\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

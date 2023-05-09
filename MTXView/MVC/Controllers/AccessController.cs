@@ -14,7 +14,7 @@ using System.ComponentModel;
 using System.Reflection;
 using System.Text.Json;
 
-namespace LogIn.Controllers
+namespace MVC.Controllers
 {
 public class AccessController : Controller
 {
