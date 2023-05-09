@@ -72,49 +72,60 @@ namespace AuthProject.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Login", "Access");
         }
+        public IActionResult Flechas()
+        {
+            CN_Arrow negocio = new CN_Arrow();
+            List<CN_Arrow> lista = new List<CN_Arrow>();
+            lista = negocio.GetArrow();
+            Arrows flechas = new Arrows();
+            foreach (CN_Arrow arrow in lista)
+            {
+                Arrows flecha = new Arrows();
+                flecha.id = arrow.id;
+                flecha.id_image = arrow.id_image;
+                flecha.nodeid = arrow.nodeid;
+                flecha.posicion = arrow.posicion;
+                flechas.list.Add(flecha);
+            }
+            return View(flechas);
+        }
         public IActionResult CFlecha(int idimg, int node, string pos)
         {
             Arrows flecha = new Arrows();
             flecha.id_image = idimg;
             flecha.nodeid = node;
             flecha.posicion = pos;
-            return View();
+            return View(flecha);
         }
         [HttpPost]
         public IActionResult CFlecha(Arrows flecha)
         {
             CN_Arrow negocio = new CN_Arrow();
             negocio.Crear(flecha.id_image, flecha.nodeid, flecha.posicion);
-            return View("CFlecha");
+            return RedirectToAction("CFlecha");
+
         }
-        public IActionResult EdFlecha(int id,int idimg, int node, string pos)
+        public IActionResult EdFlecha(int id,int idimg, int nodo, string pos)
         {
             Arrows flecha = new Arrows();
             flecha.id = id;
             flecha.id_image = idimg;
-            flecha.nodeid = node;
+            flecha.nodeid = nodo;
             flecha.posicion = pos;
-            return View();
+            return View(flecha);
         }
         [HttpPost]
         public IActionResult EdFlecha(Arrows flecha)
         {
             CN_Arrow negocio = new CN_Arrow();
             negocio.Editar(flecha.id,flecha.id_image, flecha.nodeid, flecha.posicion);
-            return View("EdFlecha");
+            return RedirectToAction("Flechas");
         }
         public IActionResult ElFlecha(int id)
         {
-            Arrows flecha = new Arrows();
-            flecha.id = id;
-            return View();
-        }
-        [HttpPost]
-        public IActionResult ElFlecha(Arrows flecha)
-        {
             CN_Arrow negocio = new CN_Arrow();
-            negocio.Eliminar(flecha.id);
-            return View("CFlecha");
+            negocio.Eliminar(id);
+            return RedirectToAction("Flechas");
         }
     }
 }

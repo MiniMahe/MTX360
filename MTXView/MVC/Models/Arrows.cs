@@ -6,5 +6,6 @@
         public int id_image { get; set; }
         public int nodeid { get; set; }
         public string posicion { get; set; }
+        public List<Arrows> list = new List<Arrows>();
     }
 }
