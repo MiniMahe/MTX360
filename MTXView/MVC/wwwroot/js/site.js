@@ -46,7 +46,7 @@ function PhotoSphere(nodes) {
         lang: {
             zoom: 'Zoom',
             moveUp: 'Move up',
-            moveDown: 'Move down',h
+            moveDown: 'Move down',
             moveLeft: 'Move left',
             moveRight: 'Move right',
             fullscreen: 'Pantalla completa',
