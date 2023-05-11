@@ -21,11 +21,11 @@ function promesa() {
                 let imagenObj = {
                     id: nombreId,
                     panorama: base + urlImagen,
-                    thumbnail: baseUrl + 'tour/key-biscayne-1-thumb.jpg',
+                    thumbnail: null,
                     name: nombreImagen,
                     links: flechas,
                     panoData: { poseHeading: 100 },
-                    map: { x: 660, y: 570, color: '#fffd99' },
+                    map: { x: 336, y: 167, color: '#fffd99' },
                 };
 
                 imagenes.push(imagenObj);
@@ -46,7 +46,7 @@ function PhotoSphere(nodes) {
         lang: {
             zoom: 'Zoom',
             moveUp: 'Move up',
-            moveDown: 'Move down',
+            moveDown: 'Move down',h
             moveLeft: 'Move left',
             moveRight: 'Move right',
             fullscreen: 'Pantalla completa',
@@ -75,12 +75,12 @@ function PhotoSphere(nodes) {
             PhotoSphereViewer.MarkersPlugin,
             PhotoSphereViewer.CompassPlugin,
             PhotoSphereViewer.GalleryPlugin,
-            //[PhotoSphereViewer.MapPlugin, {
-            //    static: true,
-            //    maxZoom: 150,
-            //}],
+            [PhotoSphereViewer.MapPlugin, {
+                static: true,
+                maxZoom: 100,
+            }],
             [PhotoSphereViewer.VirtualTourPlugin, {
-                //positionMode: 'gps',
+                positionMode: 'manual',
                 renderMode: '3d',
                 startNodeId: nodes[startnode].id,
                 preload: true,
@@ -93,9 +93,8 @@ function PhotoSphere(nodes) {
                 nodes: nodes,
 
                 map: {
-                    imageUrl: base + 'mapa.jpg',
-                    size: { width: 1600, height: 1200 },
-                    extent: [-80.158123, 25.668050, -80.153824, 25.660408],
+                    imageUrl: base + 'Mapa_Planta_1.png',
+                    size: { width: 666, height: 956 },
                 },
             }],
         ],
