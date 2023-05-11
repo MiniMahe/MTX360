@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xrz45bXkGEHuTmTPUuRebYeX/ZB349vJd8PDYnU6PlI=",
+  "Hash": "RLPtdvbcSBNdi6Y99cLrJ0JHrzlHVWvIWPDTMZGEE3k=",
   "Source": "MVC",
   "BasePath": "_content/MVC",
   "Mode": "Default",
@@ -1205,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\imgs\\deptmusica.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\descarga.png",
+      "SourceId": "MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\",
+      "BasePath": "_content/MVC",
+      "RelativePath": "lib/imgs/descarga.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\imgs\\descarga.png"
     },
     {
       "Identity": "C:\\Users\\1DAW\\Documents\\GitHub\\MTX360\\MTXView\\MVC\\wwwroot\\lib\\imgs\\dublin.jpg",

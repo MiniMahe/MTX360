@@ -1,6 +1,6 @@
 ﻿const baseUrl = 'https://photo-sphere-viewer-data.netlify.app/assets/';
 const base = 'https://minimahe.github.io/MTX360/fotos/';
-
+let pisoflot = '';
 function promesa() {
     $.ajax({
         url: "/Access/ObtenerListaImagenes",
@@ -12,8 +12,32 @@ function promesa() {
             listaImagenes.forEach(function (imagen) {
                 let nombreId = imagen.id;
                 let nombreImagen = imagen.Name;
+                let colors = '#FF99F6';
                 let urlImagen = imagen.ruta;
+                let cordenadax = imagen.x;
+                let cordenaday = imagen.y;
+                let piso = imagen.piso
                 let flechas = []
+
+                if (pisoimg == 0) {
+                        pisoflot = 'Mapa_Planta_1.png'
+                } else if (pisoimg == 1) {
+                        pisoflot = 'Mapa_Planta_2.png'
+                    } else {
+                        pisoflot = 'Mapa_Planta_3.png'
+                   }
+                
+                
+                if ((piso != pisoimg)) {
+                    cordenadax = 6000;
+                    cordenaday = 6000;
+                    colors = '#FFF'; 
+                } else if (cordenadax == 0 && cordenaday == 0) {
+                    cordenadax = 385;
+                    cordenaday = 370;
+                    colors = '#FFF'; }
+                        
+                
                 imagen.flechas.forEach(function (flecha) {
                     let lineaflechas = { nodeId: flecha.nodeid, position: { pitch: 0, yaw: flecha.posicion } };
                     flechas.push(lineaflechas)
@@ -25,9 +49,9 @@ function promesa() {
                     name: nombreImagen,
                     links: flechas,
                     panoData: { poseHeading: 100 },
-                    map: { x: 336, y: 167, color: '#fffd99' },
+                    map: { x: cordenadax, y: cordenaday, color: colors, marker: false}
+,                
                 };
-
                 imagenes.push(imagenObj);
 
             });
@@ -46,7 +70,7 @@ function PhotoSphere(nodes) {
         lang: {
             zoom: 'Zoom',
             moveUp: 'Move up',
-            moveDown: 'Move down',h
+            moveDown: 'Move down',
             moveLeft: 'Move left',
             moveRight: 'Move right',
             fullscreen: 'Pantalla completa',
@@ -93,7 +117,7 @@ function PhotoSphere(nodes) {
                 nodes: nodes,
 
                 map: {
-                    imageUrl: base + 'Mapa_Planta_1.png',
+                    imageUrl: base + pisoflot,
                     size: { width: 666, height: 956 },
                 },
             }],

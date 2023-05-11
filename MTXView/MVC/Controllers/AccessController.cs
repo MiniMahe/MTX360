@@ -81,6 +81,9 @@ namespace MVC.Controllers
                 imagen.id = Negocio.id;
                 imagen.Name = Negocio.Name;
                 imagen.ruta = Negocio.ruta;
+                imagen.x = Negocio.x;
+                imagen.y = Negocio.y;
+                imagen.piso = Negocio.piso;
                 foreach (CN_Arrow flecha in listaflechas)
                 {
                     if (imagen.id == flecha.id_image)
@@ -122,9 +125,12 @@ namespace MVC.Controllers
 
             return View("2Dview", listaClases);
         }
-        public IActionResult Fotoinicial(int numero)
+        public IActionResult Fotoinicial(int numero, int piso)
         {
-            return View("Sphere", numero);
+            ParaJs imagenypiso = new ParaJs();
+            imagenypiso.pisoimg = piso;
+            imagenypiso.imageninical = numero;
+            return View("Sphere", imagenypiso);
         }
         public IActionResult Planta2()
         {
