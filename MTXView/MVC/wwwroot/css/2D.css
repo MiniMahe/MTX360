@@ -110,4 +110,5 @@ body {
     overflow: auto;
     display: flex;
     justify-content: center;
+    background: #d5d5d5;
 }
