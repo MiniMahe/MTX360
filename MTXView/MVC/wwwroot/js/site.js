@@ -78,8 +78,8 @@ function PhotoSphere(nodes) {
         defaultYaw: '100deg',
         plugins: [
             PhotoSphereViewer.MarkersPlugin,
-            PhotoSphereViewer.CompassPlugin,
-            PhotoSphereViewer.GalleryPlugin,
+            //PhotoSphereViewer.CompassPlugin,
+            //PhotoSphereViewer.GalleryPlugin,
             [PhotoSphereViewer.MapPlugin, {
                 static: true,
                 maxZoom: 100,
