@@ -1,6 +1,6 @@
 ﻿const baseUrl = 'https://photo-sphere-viewer-data.netlify.app/assets/';
 const base = 'https://minimahe.github.io/MTX360/fotos/';
-let pisoflot = '';
+const base2 = 'https://minimahe.github.io/MTX360/MTXView/MVC/wwwroot/lib/imgs/';
 function promesa() {
     $.ajax({
         url: "/Access/ObtenerListaImagenes",
@@ -18,14 +18,6 @@ function promesa() {
                 let cordenaday = imagen.y;
                 let piso = imagen.piso
                 let flechas = []
-
-                if (pisoimg == 0) {
-                        pisoflot = 'Mapa_Planta_1.png'
-                } else if (pisoimg == 1) {
-                        pisoflot = 'Mapa_Planta_2.png'
-                    } else {
-                        pisoflot = 'Mapa_Planta_3.png'
-                   }
                 
                 
                 if ((piso != pisoimg)) {
@@ -117,7 +109,7 @@ function PhotoSphere(nodes) {
                 nodes: nodes,
 
                 map: {
-                    imageUrl: base + pisoflot,
+                    imageUrl: base2 + 'Mapa_Planta.png',
                     size: { width: 666, height: 956 },
                 },
             }],
